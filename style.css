@@ -1,9 +1,9 @@
-body{
+body {
     background-color: black;
     color: white;
 }
 
-.container{
+.container {
     width: 75%;
     margin: auto;
     background-color: rgb(48, 46, 46, 0.815);
@@ -14,7 +14,7 @@ body{
     -o-border-radius: 15px;
 }
 
-#image{
+#rotate-image {
     width: 500px;
     border-radius: 35px;
     box-shadow: 5px 5px 400px red;
@@ -22,26 +22,32 @@ body{
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
+    transition: transform 1s ease-in-out; /* Animasyon için geçiş efekti tanımlayr */
 }
 
-.img-div{
+/* Tıklanınca dönen resmin stilini tanımlar */
+#rotate-image.rotated {
+    transform: rotate(360deg); /* 360 derece dönme animasyonu */
+}
+
+.img-div {
     text-align: center;
 }
 
-.heading{
+.heading {
     font-family: 'Lobster', cursive;
 }
 
-#title{
+#title {
     text-align: center;
     font-size: 80px;
 }
 
-#span1{
+#span1 {
     color: red;
 }
 
-#info{
+#info {
     
     width: 70%;
     margin: auto;
@@ -50,29 +56,29 @@ body{
     font-size: 1.8rem;
 }
 
-#marvel{
+#marvel {
     
     color: red;
     margin-left: 10%;
 }
 
-ul{
+ul {
     width: 80%;
     margin: auto;
 }
 
-li{
+li {
     font-size: 24px;
     line-height: 3rem;
 }
 
-#footer{
+#footer {
     font-size: 1.8rem;
     padding: 1.8rem;
     text-align: center;
 }
 
-#link{
+#link {
     color: white;
     border: 2px solid darkorange;
     padding: 1rem;
@@ -81,7 +87,7 @@ li{
     text-decoration: none;
 }
 
-#link:hover{
+#link:hover {
     color: red;
     background-color: rgb(47, 45, 45);
 }

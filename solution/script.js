@@ -16,3 +16,5 @@ document.getElementById("rotate-image").addEventListener("click", function () {
         this.classList.remove("rotated");
     }, 1000); 
 });
+
+

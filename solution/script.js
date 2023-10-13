@@ -5,11 +5,11 @@ function updateTime() {
     timeElement.style.color = "red"
 }
 
-setInterval(updateTime, 1000); // Her saniye saati günceller.
+setInterval(updateTime, 1000); 
 
-// Resme tıklanınca döndürme işlevini tanımlar
+
 document.getElementById("rotate-image").addEventListener("click", function () {
-    // "rotated" sınıfını ekleyerek resmi döndürür.
+
     this.classList.add("rotated");
 
     setTimeout(() => {

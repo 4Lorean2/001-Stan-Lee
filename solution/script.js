@@ -8,6 +8,7 @@ function updateTime() {
 setInterval(updateTime, 1000); 
 
 
+
 document.getElementById("rotate-image").addEventListener("click", function () {
 
     this.classList.add("rotated");
@@ -16,7 +17,6 @@ document.getElementById("rotate-image").addEventListener("click", function () {
         this.classList.remove("rotated");
     }, 1000); 
 });
-
 
 
 

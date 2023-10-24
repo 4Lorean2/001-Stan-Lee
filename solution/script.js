@@ -5,7 +5,7 @@ function updateTime() {
     timeElement.style.color = "red"
 }
 
-setInterval(updateTime, 1000); 
+setInterval(updateTime, 10000); 
 
 
 
